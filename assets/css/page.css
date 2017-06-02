@@ -85,6 +85,7 @@ a span {
 	background-image: url('../images/my_images/bg_section2.png');
 	background-repeat: no-repeat;
 	padding: 50px 110px;
+	background-size: 100% 100%;
 }
 .title-about, .title-menu, .title-reservation{
     font-family: 'YesevaOne_Regular';
@@ -109,6 +110,7 @@ a span {
 section#ingredients{
 	background-image: url("../images/my_images/bg_section3.png");
 	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 .content-right{
 	background-color: rgba(1,1,1,0.6);
@@ -151,6 +153,7 @@ section#ingredients{
 #menu{
 background-image: url("../images/my_images/bg_section4.png");
 background-repeat: no-repeat;
+background-size: 100% 100%;
 }
 #menu .container{
 	padding: 0px 50px !important;
@@ -208,6 +211,7 @@ fieldset legend{
 	background-image: url("../images/my_images/bg_section5.png");
 	background-repeat: no-repeat;
 	padding: 60px;
+	background-size: 100% 100%;
 }
 .content-center{
 	background-color: rgba(1,1,1,0.6);
