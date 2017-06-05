@@ -39,6 +39,9 @@ a span {
     -o-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
 }
+.navbar-nav li a:hover{
+	border-top: 3px solid #bebbb6 !important;
+}
 
 .navbar-brand{
 	padding: 10px 15px !important;
@@ -57,9 +60,11 @@ a span {
 .home-content.sections h1{
 	color: white;
     text-align: center;
-    font-size: 65px;
+    font-size: 80px;
+    font-weight: 600;
+
     font-family: 'YesevaOne_Regular';
-    line-height: 70px;
+    line-height: 90px;
 }
 .text-center{
 	padding: 20px 0px;
@@ -95,6 +100,7 @@ a span {
 }
 .divider2{
 	text-align: center;
+	margin-top: 15px;
 }
 .about-text{
 	font-size:16px;
@@ -135,12 +141,11 @@ section#ingredients{
 	margin-top: 70px;
 }
 .ingredients_images{
-	width: 90px;
-    height: 90px;
+	width: 80px;
+    height: 80px;
     float: left;
     border: 5px solid rgba(255,255,255,.1);
     position: relative;
-    margin: 0px 5px;
     border-radius: 50%;
 }
 .ingredients_images img{
@@ -182,7 +187,7 @@ fieldset legend{
 }
 .text-details{
 	text-align: left;
-	padding-top: 10px;
+	padding-top: 5px;
 	text-align: left;
 	font-size: 13px;
 }
@@ -192,6 +197,7 @@ fieldset legend{
     color: #cc9900;
     font-weight:bold;
     width: 100%;
+    padding: 5px 0px;
     font-size: 16px;
   	font-family: 'YesevaOne_Regular';	
     border-bottom: 1px solid #e4dcbd;
@@ -260,6 +266,14 @@ fieldset legend{
 }
 input:focus, select:focus{
 	border-color: #cc9900 !important;
+}
+#datepicker{
+	background-color: white;
+	background-image: url('../images/my_images/calendar.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-origin: content-box;
+	padding-right:10px;
 }
 .res-date{
 	height: 35px;
