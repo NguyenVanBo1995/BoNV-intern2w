@@ -80,7 +80,7 @@ a span {
     border: 1px solid black;
 }
 .text-center button{
-	padding: 8px 20px;
+	/*padding: 8px 20px;*/
 	text-transform: uppercase;
 	margin: 0px 15px;
 }
@@ -100,15 +100,17 @@ a span {
 }
 .divider2{
 	text-align: center;
-	margin-top: 15px;
+	margin: 15px;
 }
 .about-text{
-	font-size:16px;
-	padding: 10px 10px;
-	font-family: "Lato";
+	font-size:14px;
+	/*font-family: "Lato";*/
+    padding: 0px 23px;
+
 }
 .img-cook{
-	padding:20px 20px;
+	padding:30px 30px;
+	margin-left: 80px;
 }
 
 /*Ingredeints*/
@@ -251,6 +253,9 @@ fieldset legend{
 }
 
 /*Reversation*/
+.form-resvation{
+	padding: 0px 20px;
+}
 .form-group label{
 	color: #cca747;
 	}
@@ -258,7 +263,7 @@ fieldset legend{
 	font-family: sans-serif;
 	text-align-last: left;
 	font-size: 14px;
-    margin: 10px 0px !important;
+    margin: 15px 0px !important;
 }
 .form-group input,select{
 	font-size: 14px !important;
@@ -284,7 +289,7 @@ input:focus, select:focus{
 	border-color: #c9a131;
 	height: 35px;
 	width: 190px;
-	margin-top: 15px !important;
+	margin-top: 20px !important;
 	color: white;
     text-transform: none !important;
 }
