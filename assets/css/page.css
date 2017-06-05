@@ -9,6 +9,7 @@ body {
     margin-right: 0;
     font-family: 'Lato', sans-serif !important;
     font-weight: 500;
+    max-height: 1290px;
 }
 
 img {
@@ -83,6 +84,7 @@ a span {
 	/*padding: 8px 20px;*/
 	text-transform: uppercase;
 	margin: 0px 15px;
+	/*padding: 10px 30px;*/
 }
 
 /*About*/
@@ -142,9 +144,12 @@ section#ingredients{
 	text-align: center;
 	margin-top: 70px;
 }
+.ingre-item .col-sm-4{
+	/*padding:0px 20px;*/
+}
 .ingredients_images{
-	width: 80px;
-    height: 80px;
+	width: 90px;
+    height: 90px;
     float: left;
     border: 5px solid rgba(255,255,255,.1);
     position: relative;
@@ -189,7 +194,7 @@ fieldset legend{
 }
 .text-details{
 	text-align: left;
-	padding-top: 5px;
+	padding-top: 7px;
 	text-align: left;
 	font-size: 13px;
 }
@@ -305,17 +310,18 @@ input:focus, select:focus{
 
 #footer p{
 	font-size: 16px;
-	font-family: "OpenSans";
+	/*font-family: "OpenSans";*/
 } 
 
 .footer-icons li{
     display: inline-block;
-	margin: 0px 10px;
+	margin: 20px 3px;
+
 }
 .footer-icons li a{
 	color: white;
 }
 .footer-icons{
 	text-align: center;
-	margin-top: 40px;
+	/*margin-top: 40px;*/
 }
