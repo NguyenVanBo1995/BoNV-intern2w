@@ -84,7 +84,7 @@ a span {
 	/*padding: 8px 20px;*/
 	text-transform: uppercase;
 	margin: 0px 15px;
-	/*padding: 10px 30px;*/
+	padding: 10px 30px;
 }
 
 /*About*/
@@ -294,6 +294,7 @@ input:focus, select:focus{
 	border-color: #c9a131;
 	height: 35px;
 	width: 190px;
+	padding:0px 0px !important;
 	margin-top: 20px !important;
 	color: white;
     text-transform: none !important;
